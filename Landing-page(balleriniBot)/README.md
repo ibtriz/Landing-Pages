@@ -12,9 +12,11 @@ Objetivo: Estudar a estrutura de uma Landing Page
 
 ## Aprendizados
 
+- Melhor entendimento sobre como estruturar um website a partir de um design feito no figma
 - Melhor entendimento do Flexbox
 - Estrutura HTML para uma Landing Page
 - Melhor entendimento do CSS
+
 
 
 ## Stack utilizada
