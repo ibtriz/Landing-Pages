@@ -1,120 +1,165 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
 /* Exportanto as informações das fontes*/
-*/* Seleciona todas as tags do documento html*/{
-    margin: 0; /* Distancia da tag para o exterior */
-    padding: 0; /* Distância da tag para o conteúdo */
+*
+
+/* Seleciona todas as tags do documento html*/
+    {
+    margin: 0;
+    /* Distancia da tag para o exterior */
+    padding: 0;
+    /* Distância da tag para o conteúdo */
     box-sizing: border-box;
     text-decoration: none;
 }
 
-body{
+body {
     font-size: 100;
     background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
 }
 
-.header{
-    display: flex; /* Já sabe que vai utilizar o flexbox */
+.header {
+    display: flex;
+    /* Já sabe que vai utilizar o flexbox */
     flex-direction: row;
-    align-items: center; /* como quero que os itens fiquem alinhados */
-justify-content: space-around;
-padding: 24px 0px; /* coloquei distancia de top da página e 0 para os lados */
+    align-items: center;
+    /* como quero que os itens fiquem alinhados */
+    justify-content: space-around;
+    padding: 24px 0px;
+    /* coloquei distancia de top da página e 0 para os lados */
 }
 
-#logo-header{
+#logo-header {
     height: 72px;
 }
 
-#header-menu{
+#header-menu {
     display: flex;
-    gap: 32px; /* distância entre os itens do menu*/
+    gap: 32px;
+    /* distância entre os itens do menu*/
 }
 
-.item-menu{
+.item-menu {
     color: #fff;
-    font-family: 'Sarala', sans-serif; /* chamando fonte especifica*/
-font-weight: 400;/*quanto maior o font-weight mais em negrito fica*/
-font-size: 18px;}
-
-.conteudo{
-    border-top/*borda da parte de cima, linha*/: 0.4px/*grossura*/ solid #Fff; 
-margin-bottom:  48px;/*distancia da tag de baixo*/
+    font-family: 'Sarala', sans-serif;
+    /* chamando fonte especifica*/
+    font-weight: 400;
+    /*quanto maior o font-weight mais em negrito fica*/
+    font-size: 18px;
 }
 
-.conteudo-principal{
+.conteudo {
+    border-top:
+        /*borda da parte de cima, linha*/
+        0.4px
+        /*grossura*/
+        solid #Fff;
+    margin-bottom: 48px;
+    /*distancia da tag de baixo*/
+}
+
+.conteudo-principal {
     display: flex;
-    flex-direction: row /*linha*/;
+    flex-direction: row
+        /*linha*/
+    ;
     align-items: center;
     justify-content: space-around;
 }
 
-#conteudo-principal-texto{
+#conteudo-principal-texto {
     display: flex;
-    flex-direction: column; /*deixar em coluna*/
-    gap: 32px;/*espaço entre os elementos*/
+    flex-direction: column;
+    /*deixar em coluna*/
+    gap: 32px;
+    /*espaço entre os elementos*/
 }
-#conteudo-principal-titulo{
-    font-family: 'Righteous', cursive; 
-font-weight: 400;
-font-size: 64px;
-color: #fff2e7;}
-#conteudo-principal-subtitulo{
+
+#conteudo-principal-titulo {
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 64px;
+    color: #fff2e7;
+}
+
+#conteudo-principal-subtitulo {
     font-family: 'Sarala', sans-serif;
     font-weight: 400;
-    font-size: 20px; 
+    font-size: 20px;
     color: #ecd6c4
 }
 
-#conteudo-principal-botao{
-    background-color:#ecd6c4;
+#conteudo-principal-botao {
+    background-color: #ecd6c4;
     width: 180px;
     height: 60px;
-    border: none; /*tirar o sombreamento padrão*/
+    border: none;
+    /*tirar o sombreamento padrão*/
     box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
     font-family: 'Sarala', sans-serif;
     font-weight: 400;
     font-size: 24px;
 }
-#conteudo-principal-botao:hover /*já sabe que vai colocar esses estilos quando passar o mouse*/{
- background-color: rgba(236, 214, 196, 0.56);   
-}
-#ballebot{
-height: 430px;
+
+#conteudo-principal-botao:hover
+
+/*já sabe que vai colocar esses estilos quando passar o mouse*/
+    {
+    background-color: rgba(236, 214, 196, 0.56);
 }
 
-.conteudo-secundario{
+#ballebot {
+    height: 430px;
+}
+
+.conteudo-secundario {
     display: flex;
-    flex-direction: column; /*um embaixo do outro*/
+    flex-direction: column;
+    /*um embaixo do outro*/
     align-items: center;
     gap: 24px;
-   margin-top: 48px;
+    margin-top: 48px;
 }
 
-#conteudo-secundario-titulo{
+#conteudo-secundario-titulo {
     /*A borda que separa os conteúdos primário e secundário é menor porque o border-top foi colocado no <h3 class="conteudo-secundario-titulo">, com isso a borda acompanhará o tamanho do título apenas.*/
-    border-top:/*borda da parte de cima, linha*/ 0.4px/*grossura*/ solid #Fff; 
-    padding-top: 48px; /*distância entre o contéudo dele  e o topo dele*/ 
-    font-family: 'Righteous', cursive; 
+    border-top:
+        /*borda da parte de cima, linha*/
+        0.4px
+        /*grossura*/
+        solid #Fff;
+    padding-top: 48px;
+    /*distância entre o contéudo dele  e o topo dele*/
+    font-family: 'Righteous', cursive;
     font-weight: 400;
-    font-size:24px;
+    font-size: 24px;
     color: #fff;
-    margin-bottom: 16px;/*quero que o título fique mais distante dos paragrafos*/}
+    margin-bottom: 16px;
+    /*quero que o título fique mais distante dos paragrafos*/
+}
 
-    .p-conteudo-secundario{
-        font-family: 'Sarala', sans-serif;
-        font-weight: 300;
-        font-size: 18px;
-        color: #ecd6c4;
-    }
+.p-conteudo-secundario {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #ecd6c4;
+}
 
-    #footer{
-        padding: 32px; /*distancia em todos os lados*/
-        border-top/*borda da parte de cima, linha*/: 0.4px/*grossura*/ solid #Fff;
-    }
+#footer {
+    padding: 32px;
+    /*distancia em todos os lados*/
+    border-top
+    /*borda da parte de cima, linha*/
+    : 0.4px
+        /*grossura*/
+        solid #Fff;
+}
 
-    #footer-logo{
-        height: 48px;
-        /*truque para centralizar apenas 1 elemento*/
-        display: block;/*boclo vai utilizar toda a parte do elemento*/
-        margin: 0 auto;/* automaticamente coloca pros lados*/
-    }
+#footer-logo {
+    height: 48px;
+    /*truque para centralizar apenas 1 elemento*/
+    display: block;
+    /*boclo vai utilizar toda a parte do elemento*/
+    margin: 0 auto;
+    /* automaticamente coloca pros lados*/
+}
