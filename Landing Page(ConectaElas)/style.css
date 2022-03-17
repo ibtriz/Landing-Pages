@@ -1,0 +1,86 @@
+/*============ Google fonts ============*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  color: antiquewhite;
+}
+
+body {
+  background-image: linear-gradient(#F285D5, #0A0C21);
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+section {
+position: relative;
+width: 100%;
+min-height: 100vh;
+padding: 100px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+  header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header ul {
+  position: relative;
+  display: flex;
+}
+
+header ul li {
+  list-style-type: none;
+}
+
+header ul li a {
+  display: inline-block;
+  font-weight: 400;
+  margin-left: 40px;
+  text-decoration: none;
+}
+
+.content { 
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center
+}
+
+.content .text {
+  position: relative;
+  max-width: 600px;
+}
+.content .text h1{
+  font-size: 2em;
+  line-height: 1.4em;
+  font-weight: 500;
+}
+.content .text button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 8px 20px;
+  background-color: #0A0C21;
+  color: #fff;
+  border-radius: 40px;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+.content .image {
+  width: 100px;
+}
+
+.content .image img {
+  max-width: 340px;
+}
