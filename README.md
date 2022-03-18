@@ -4,11 +4,11 @@ Objetivo: Estudar a estrutura de uma Landing Page
 
 
 ## Demonstração
-[Balle Bot](https://landing-pages-neon.vercel.app/)
+[ Acesse aqui a  Landing Page Balle Boot](https://landing-pages-neon.vercel.app/)
 
-![Demontração](Landing-page(balleriniBot)/img/DEMONSTRA%C3%87%C3%83O.png)
+![Demonstração](Landing-page(balleriniBot)/img/DEMONSTRA%C3%87%C3%83O.png)
 
-[Conecta Elas](https://landing-pages-neon.vercel.app/)
+[ Acesse aqui a  Landing Page Conecta Elas](https://landing-pages-conectaelas.vercel.app/)
 
 ![Demontração2](Landing-page(ConectaElas)/img/conecte-elas.png)
 
@@ -26,7 +26,9 @@ Objetivo: Estudar a estrutura de uma Landing Page
 - Melhor entendimento do Flexbox
 - Estrutura HTML para uma Landing Page
 - Melhor entendimento do CSS
-- Melhor entendimento sobre como estruturar um website a partir de um design feito no figma
+- Melhor entendimento sobre como programar um website seguindo um UI design feito no Figma
+- Desenvolver UI Design pelo Figma por conta própria
+- Trabalhar e estilizar um form
 
 
 ## Stack utilizada
