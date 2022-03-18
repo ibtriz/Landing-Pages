@@ -1,86 +1,276 @@
-/*============ Google fonts ============*/
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/*comentario*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+/* Exportanto as informações das fontes*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+*
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
-  color: antiquewhite;
+/* Seleciona todas as tags do documento html*/
+    {
+    margin: 0;
+    /* Distancia da tag para o exterior */
+    padding: 0;
+    /* Distância da tag para o conteúdo */
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #fff;
 }
 
 body {
-  background-image: linear-gradient(#F285D5, #0A0C21);
-  height: 100%;
-  margin: 0;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+    background: linear-gradient(0deg, rgba(135, 92, 170, 0.4), rgba(135, 92, 170, 0.4)), rgba(243, 130, 216, 0.5);
+    mix-blend-mode: normal;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-section {
-position: relative;
-width: 100%;
-min-height: 100vh;
-padding: 100px;
-display: flex;
-justify-content: space-between;
-align-items: center;
-}
-  header {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 20px 100px;
+
+.header {
     display: flex;
-    justify-content: space-between;
+    /* Já sabe que vai utilizar o flexbox */
+    flex-direction: row;
+    align-items: center;
+    /* como quero que os itens fiquem alinhados */
+    justify-content: space-around;
+    padding: 24px 0px;
+    /* coloquei distancia de top da página e 0 para os lados */
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
     align-items: center;
 }
-header ul {
-  position: relative;
-  display: flex;
+
+#menu {
+    display: flex;
+    gap: 34px;
+    /*distancia entre os itens do menu*/
 }
 
-header ul li {
-  list-style-type: none;
+h1 {
+    margin-top: 50px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 82px;
+    text-align: center;
 }
 
-header ul li a {
-  display: inline-block;
-  font-weight: 400;
-  margin-left: 40px;
-  text-decoration: none;
+p {
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
 }
 
-.content { 
-  position: relative;
-  width: 100%;
-  display: flex;
-  align-items: center
+#home {
+    display: flex;
+    flex-direction: row;
+    /*coloquei os item dentro da section home lado a lado*/
+    align-items: center;
+    /*centralizei*/
+    justify-content: space-around;
+    /*deixei um em cada lado da página*/
+    border-top:
+    /*borda da parte de cima, linha*/
+    0.4px
+    /*grossura*/
+    solid #Fff;
+margin-bottom: 48px;
+/*distancia da tag de baixo*/
 }
 
-.content .text {
-  position: relative;
-  max-width: 600px;
-}
-.content .text h1{
-  font-size: 2em;
-  line-height: 1.4em;
-  font-weight: 500;
-}
-.content .text button {
-  display: inline-block;
-  margin-top: 20px;
-  padding: 8px 20px;
-  background-color: #0A0C21;
-  color: #fff;
-  border-radius: 40px;
-  letter-spacing: 1px;
-  text-decoration: none;
-}
-.content .image {
-  width: 100px;
+.principal-text {
+    display: flex;
+    flex-direction: column;
+    /*deixar em coluna*/
+    gap: 32px;
+    /*espaço entre os elementos*/
+    padding-left: 62px;
 }
 
-.content .image img {
-  max-width: 340px;
+#botao {
+    background: linear-gradient(0deg, rgba(135, 92, 170, 0.45), rgba(135, 92, 170, 0.45)), rgba(243, 130, 216, 0.5);
+    mix-blend-mode: lighten;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    width: 180px;
+    height: 60px;
+    border: none;
+}
+
+#botao:hover
+
+/*já sabe que vai colocar esses estilos quando passar o mouse*/
+    {
+    background-color: rgba(236, 214, 196, 0.56);
+}
+
+.principal-img {
+    height: 430px;
+}
+#livros{
+    margin-top: 150px;
+    border-top:
+    /*borda da parte de cima, linha*/
+    0.4px
+    /*grossura*/
+    solid #Fff;
+margin-bottom: 150px;
+/*distancia da tag de baixo*/
+}
+.conteudo-livros{
+    display: flex;
+    flex-direction: row;
+    /*coloquei os item dentro da section home lado a lado*/
+    align-items: center;
+    /*centralizei*/
+    justify-content: space-around;
+    /*deixei um em cada lado da página*/   
+}
+#imagem-livro{
+    height: 430px;   
+}
+
+h2{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 60px;
+padding: 15px;
+}
+.container-form{
+    background: rgba(96, 23, 155, 0.4);
+    border-radius: 30px;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+#form{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    margin: 20px;
+    padding: 15px;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    background: #C4C4C4;
+border-radius: 40px;
+box-sizing: border-box;
+border: none;
+  }
+  
+  input[type=submit] {
+    background: linear-gradient(0deg, rgba(135, 92, 170, 0.45), rgba(135, 92, 170, 0.45)), rgba(243, 130, 216, 0.5);
+    mix-blend-mode: lighten;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    width: 180px;
+    height: 60px;
+    border: none;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    color: #FFFFFF;
+  }
+  
+  input[type=submit]:hover {
+    background-color:#3853A1;
+  }
+  #sobre {
+
+    border-top:
+    /*borda da parte de cima, linha*/
+    0.4px
+    /*grossura*/
+    solid #Fff;
+margin-bottom: 48px;
+/*distancia da tag de baixo*/
+}
+
+.conteudo-sobre {
+    display: flex;
+    flex-direction: column;
+    /*deixar em coluna*/
+    gap: 32px;
+    /*espaço entre os elementos*/
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    /*coloquei os item dentro da section home lado a lado*/
+    align-items: center;
+    /*centralizei*/
+    justify-content: space-around;
+    /*deixei um em cada lado da página*/
+}
+.sobre-texto{
+    display: flex;
+    flex-direction: column;
+    /*deixar em coluna*/
+    gap: 32px;
+    /*espaço entre os elementos*/
+    padding-left: 62px;
+}
+
+.profile-icon-i{
+    height: 58px;
+    padding-right: 40px;
+}
+
+#contato{
+    padding: 32px;
+    /*distancia em todos os lados*/
+    border-top
+    /*borda da parte de cima, linha*/
+    : 0.4px
+        /*grossura*/
+        solid #Fff;
+}
+
+
+#mensagem-botao{
+    background: linear-gradient(0deg, rgba(135, 92, 170, 0.45), rgba(135, 92, 170, 0.45)), rgba(243, 130, 216, 0.5);
+    mix-blend-mode: lighten;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    width: 180px;
+    height: 60px;
+    border: none;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+#container-footer{
+    display: flex;
+    flex-direction: row;
+    /*deixar em coluna*/
+    gap: 32px;
+    /*espaço entre os elementos*/
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    /*coloquei os item dentro da section home lado a lado*/
+    align-items: center;
+    /*centralizei*/
+    justify-content: space-around;
+    /*deixei um em cada lado da página*/
+}
+#img-criadora-projeto
+{
+    height: 260px;
 }

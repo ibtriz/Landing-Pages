@@ -5,60 +5,96 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Desafio, Landing page do projeto conecta elas">
   <link rel="stylesheet" href="style.css">
-  <title>Conecte Elas</title>
+  <title>Conecta Elas</title>
 </head>
 
 <body>
-  <header id="header">
-    <nav>
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#sobre">Sobre</a></li>
-        <li><a href="#contatos">Contatos</a></li>
-      </ul>
+  <header class="header">
+    <a href="#" id="logo">ConectaElas</a>
+    <nav id="menu">
+      <a href="#home" class="menu-itens">Home</a>
+      <a href="#livros" class="menu-itens">Livros</a>
+      <a href="#sobre" class="menu-itens">Sobre</a>
+      <a href="#contato" class="menu-itens">Contato</a>
     </nav>
   </header>
-  <section id="home">
-    <div class="content">
-      <div class="text">
-        <h1>Conecte Elas</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, quis. Aspernatur at, sunt distinctio tempore
-          obcaecati placeat officia sint impedit nobis aliquam odit? Quidem magnam, in delectus ad assumenda
-          praesentium.</p>
-        <a href="#sobre"><button>Saiba Mais</button></a>
+
+  <main class="conteudo">
+    <section id="home">
+      <div class="principal-text">
+        <h1>Conecta Elas</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus magni nam explicabo eos cum et nisi
+          distinctio praesentium rerum commodi ad officiis asperiores eveniet ut, a consequuntur autem non amet!</p>
+        <button type="button" onclick="document.getElementById('sobre').scrollIntoView();" id="botao">
+          <p>Saiba Mais!</p>
+        </button>
       </div>
-      <div class="image"><img src="img/undraw_ideas_flow_re_bmea.svg" alt=""></div>
-    </div>
-  </section>
-  <section id="sobre">
-    <div class="content">
-    <div class="text">
-      <h1>
-        Laiza| TI para elas
-      </h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates perferendis suscipit perspiciatis, a velit
-        delectus doloremque obcaecati tempore dolores dolorem cumque provident? Amet quis aliquid culpa at dolorum
-        eveniet rem!</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias deserunt maxime, voluptatum quod temporibus sequi in? Officia ipsam harum laborum, totam eius quisquam esse ullam et temporibus? Officiis, et harum.</p>
-    </div>
-    <div class="image">
-      <img src="https://ebaconline.com.br/upload/cms/kJiLrCAKjUckRcN9zzeGn.png" alt="">
-    </div>
-  </div>
-  </section>
-</body>
-<footer>
-  <section id="contact">
-    <div class="wrapper">
-      <div class="contact-wrapper">
-        <h4>Entre em contato</h4>
-        <div class="wrapper">        
-          <a class="contact-footer contact-tel" href="#"></i>001-283-4892</a>
-          <a class="contact-footer contact-email" href="#">Envie um e-mail</a>
+      <div class="principal-img">
+        <img src="img/conteudo-principal-img 1.svg" alt="ilustração">
+      </div>
+    </section>
+  </main>
+  <section id="livros">
+    <h1>Livros</h1>
+    <div class="conteudo-livros">
+      <div class="livro-selected">
+        <img id="imagem-livro" src="img/Capas-dos-livros/Cronograma CSS.png" alt="Cronograma CSS"> </div>
+      <div class="form">
+        <h2>Preencha nosso forms para receber!</h2>
+        <div class="container-form">
+          <form action="" id="form">
+            <label for="email">E-mail</label><br>
+            <input type="text" id="form-email" name="femail" value=""><br>
+            <label for="Name">Nome Completo</label><br>
+            <input type="text" id="form-name" name="fname" value=""><br>
+            <label for="book">Selecione o Livro</label> <br>
+            <select id="book" name="book">
+              <option value="ChecklistCurriculo">Checklist Curriculo</option>
+              <option value="ChecklistEntrevista">Checklist Entrevista</option>
+              <option value="Cronograma CSS">Cronograma CSS</option>
+              <option value="CronogramaHTML">CronogramaHTML</option>
+              <option value="CronogramaJavaScript">Cronograma JavaScript</option>
+              <option value="CronogramaLogica">Cronograma Lógica</option>
+              <option value="CronogramaPython">Cronograma Python</option>
+            </select> <br>
+            <input type="submit" value="Enviar">
+          </form>
         </div>
       </div>
     </div>
   </section>
+  <section id="sobre">
+    <h1 id="about-title">Sobre</h1>
+    <h2>Designer e Desenvolvedora da Página</h2>
+    <div class="conteudo-sobre">
+    <div class="profile-img">
+      <img src="img/ImagemPerfilSobre.svg" alt="imagem-perfil">
+    </div>
+    <div class="container-right">
+      <div class="sobre-texto">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, quis. Aspernatur at, sunt distinctio tempore
+          obcaecati placeat officia sint impedit nobis aliquam odit? Quidem magnam, in delectus ad assumenda
+          praesentium.</p>
+          <div class="profile-icon">
+            <a href="https://github.com/ibtriz"> <img src="img/githubIcon.svg" class="profile-icon-i alt="> </a>
+            <a href="https://www.instagram.com/ibtriz/"> <img src="img/instagramIcon.svg"  class="profile-icon-i" alt=""> </a>
+          </div>
+        </div>
+    </div>
+    </div>
+  </section>
+  <footer id="contato">
+    <H1>Criadora do Projeto ConecteElas</H1>
+ <div id="container-footer">
+   <h2>Laiza Benevides Sobral</h2>
+   <p>Laiza Benevides, criadora e produtora de conteúdo no projeto Conecta Elas, no Instagram. E apaixonada por desenvolvimento web</p>
+   <img src="https://ebaconline.com.br/upload/cms/kJiLrCAKjUckRcN9zzeGn.png" id="img-criadora-projeto" alt="Laiza Benevides Sobral">
+
+      </div>
+      <a href="https://beacons.ai/conectaelas"><button id="mensagem-botao">Mais Sobre</button></a>
   </footer>
+</body>
+
 </html>
