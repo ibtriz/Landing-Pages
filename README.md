@@ -4,7 +4,7 @@ Objetivo: Estudar a estrutura de uma Landing Page
 
 
 ## Demonstração
-[ Acesse aqui a  Landing Page Balle Boot](https://landing-pages-neon.vercel.app/)
+[ Acesse aqui a  Landing Page Balle Bot](https://landing-pages-neon.vercel.app/)
 
 ![Demonstração](Landing-page(balleriniBot)/img/DEMONSTRA%C3%87%C3%83O.png)
 
