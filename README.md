@@ -6,9 +6,11 @@ Objetivo: Estudar a estrutura de uma Landing Page
 ## Demonstração
 [Balle Bot](https://landing-pages-neon.vercel.app/)
 
-![Demontração](Landing-page(balleriniBot)/img/DEMONSTRA%C3%87%C3%83O.png) 
+![Demontração](Landing-page(balleriniBot)/img/DEMONSTRA%C3%87%C3%83O.png)
 
-[ConectaElas](/)
+[Conecta Elas](https://landing-pages-neon.vercel.app/)
+
+![Demontração2](Landing-page(ConectaElas)/img/conecte-elas.png)
 
 
 
