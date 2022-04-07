@@ -2,6 +2,7 @@
 <html lang="pt-br">
 
 <head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,6 +12,7 @@
 </head>
 
 <body>
+  <script src="script.js"></script>
   <header class="header">
     <a href="#" id="logo">ConectaElas</a>
     <nav id="menu">
@@ -20,9 +22,11 @@
       <a href="#contato" class="menu-itens">Contato</a>
     </nav>
   </header>
-
+ 
+  <div class="mostrar"> 
   <main class="conteudo">
     <section id="home">
+ 
       <div class="principal-text">
         <h1>Conecta Elas</h1>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus magni nam explicabo eos cum et nisi
@@ -34,9 +38,11 @@
       <div class="principal-img">
         <img src="img/conteudo-principal-img 1.svg" alt="ilustração">
       </div>
+    </div>
     </section>
   </main>
   <section id="livros">
+    <div class="mostrar">
     <h1>Livros</h1>
     <div class="conteudo-livros">
       <div class="livro-selected">
@@ -44,7 +50,7 @@
       <div class="form">
         <h2>Preencha nosso forms para receber!</h2>
         <div class="container-form">
-          <form action="" id="form">
+          <form id="form" method="post" action="receber-form.php">
             <label for="email">E-mail</label><br>
             <input type="text" id="form-email" name="femail" value=""><br>
             <label for="Name">Nome Completo</label><br>
@@ -64,8 +70,10 @@
         </div>
       </div>
     </div>
+  </div>
   </section>
   <section id="sobre">
+    <div class="mostrar">
     <h1 id="about-title">Sobre</h1>
     <h2>Designer e Desenvolvedora da Página</h2>
     <div class="conteudo-sobre">
@@ -84,8 +92,10 @@
         </div>
     </div>
     </div>
+  </div>
   </section>
   <footer id="contato">
+    <div class="mostrar">
     <H1>Criadora do Projeto ConecteElas</H1>
  <div id="container-footer">
    <h2>Laiza Benevides Sobral</h2>
@@ -94,7 +104,7 @@
 
       </div>
       <a href="https://beacons.ai/conectaelas"><button id="mensagem-botao">Mais Sobre</button></a>
-  </footer>
+  </div></footer>
 </body>
 
 </html>
